@@ -2,9 +2,7 @@ name: Verify samples
 
 on:
   push:
-    branches: [ * ]
-  pull_request:
-    branches: [ master ]
+    branches: "*"
 jobs:
   build:
     runs-on: ubuntu-latest
